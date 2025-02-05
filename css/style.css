@@ -16,6 +16,15 @@ h1 {
     text-align: center;
 }
 
+#equipo2 {
+    margin: 0 auto;
+    width: 80%;
+    height: 350px;
+    outline: red solid 1px;
+    text-align: center;
+    position: relative;
+}
+
 .tarjeta {
     margin: 10px;
     padding: 5px;
@@ -30,8 +39,124 @@ ol {
     margin: 10px;
 }
 
-#info {
+.info {
     background-color: antiquewhite;
     padding: 5px;
     margin: 20px;
 }
+
+.tarjeta1 {
+    margin: 10px;
+    padding: 5px;
+    border: blueviolet solid 1px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#t1 {
+    position: fixed;
+    bottom: 10%;
+    right: 0;
+}
+
+#t2 {
+    float: right;
+}
+
+#t3 {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+  }
+  
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+  
+  div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+  
+  div.relative2 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } 
+  
+  div.absolute2 {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+
+  div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  }
+
+  #floats {
+    position: static;
+  }
+
+  #floats div {
+    float: left;
+    padding: 15px; 
+  }
+  
+  .div1 {
+    background: red;
+  }
+  
+  .div2 {
+    background: yellow;
+  }
+  
+  .div3 {
+    background: green;
+  }
+
+  .div4 {
+    background: blue;
+    clear: both;
+  }
+
+#overflows div{
+    float: left;
+    margin-right: 30px;
+}
+  
+  #overflow-v {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+  }
+
+  #overflow-h {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: hidden;
+    float: left;
+  }
