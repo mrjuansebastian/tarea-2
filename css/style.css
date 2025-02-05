@@ -1,0 +1,37 @@
+/* {
+    padding: 0px;
+    margin: 0px;
+    outline: red solid 1px;
+}*/
+
+h1 {
+    text-align: center;
+}
+
+#equipo {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    outline: red solid 1px;
+    text-align: center;
+}
+
+.tarjeta {
+    margin: 10px;
+    padding: 5px;
+    border: blueviolet solid 1px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+ol {
+    margin: 10px;
+}
+
+#info {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 20px;
+}
