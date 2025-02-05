@@ -144,19 +144,19 @@ div.static {
     margin-right: 30px;
 }
   
-  #overflow-v {
+#overflow-v {
     background-color: coral;
     width: 200px;
     height: 65px;
     border: 1px solid;
     overflow: visible;
-  }
+}
 
-  #overflow-h {
+#overflow-h {
     background-color: coral;
     width: 200px;
     height: 65px;
     border: 1px solid;
     overflow: hidden;
     float: left;
-  }
+}
